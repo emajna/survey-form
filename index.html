@@ -1,0 +1,81 @@
+"<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <h1 id="title">Survey form 3</h1>
+    <p id="#description">
+      Thank you for shoping XXXX products! We would appreciate if you can take
+      some time to file out our survey form. That way we can improve the
+      products and our services for you and any other clients. Don't worry, it
+      will only take a couple of minutes :) Lorem ipsum dolor sit amet,
+      consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+      dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+      ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+      dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+      nulla pariatur.
+    </p>
+    <form id="survey-form">
+      <div>
+        <label
+          >Enter name<input id="name" type="text" placeholder="Name" />
+        </label>
+      </div>
+      <div>
+        <label
+          >Enter email<input id="email" type="email" placeholder="email"
+        /></label>
+      </div>
+      <div>
+        <label
+          >How old are you?<input
+            type="number"
+            id="age"
+            min="13"
+            max="99"
+            placeholder="age"
+        /></label>
+      </div>
+      <div>
+        <label
+          >Lorem ipsum
+          <select name="likes" id="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">Opcija 1</option>
+            <option value="2">Opcija 2</option>
+          </select>
+        </label>
+      </div>
+      <div>
+        <label> <input type="radio" name="radio" />Lorem ipsum </label>
+        <label> <input type="radio" name="radio" />Lorem ipsum </label>
+      </div>
+      <div>
+        <label>
+          <input type="checkbox" name="checkbox" value="one" />One
+        </label>
+        <label>
+          <input type="checkbox" name="checkbox" value="two" />Two
+        </label>
+        <label>
+          <input type="checkbox" name="checkbox" value="three" />Three
+        </label>
+        <label>
+          <input type="checkbox" name="checkbox" value="four" />Four
+        </label>
+      </div>
+      <div>
+        <label
+          >Comment
+          <textarea name="comment" cols="30" rows="5"></textarea>
+        </label>
+      </div>
+      <input type="submit" id="submit" />
+    </form>
+  </body>
+</html>
