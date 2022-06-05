@@ -1,4 +1,57 @@
+body {
+  font-family: monospace;
+  font-size: 15px;
+  background-color: #b1bce6;
+  color: #b1bce6;
+}
+
+.container {
+  max-width: 500px;
+  min-width: 300px;
+  width: 50%;
+  margin: 50 auto;
+  background-color: #9a86a4;
+
+  padding: 2rem;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  color: #b7e5dd;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  min-width: 2em;
+  color: #b1bce6;
+}
+
 p {
-  color: rgb(105, 167, 238);
-  background-color: antiquewhite;
+  color: #b1bce6;
+  background-color: #f1f0c0;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: justify;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+.inline {
+  vertical-align: middle;
+  width: unset;
+  margin: 0 0.5em 0 0;
+}
+
+#dropdown {
+  padding: 1px 2px;
+}
+input[type="file"] {
+  padding: 1px 2px;
 }
