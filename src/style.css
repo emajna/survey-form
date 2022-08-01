@@ -1,25 +1,39 @@
 body {
-  font-family: monospace;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 15px;
-  background-color: #b1bce6;
-  color: #b1bce6;
+  background-color: rgb(44, 12, 12);
+  color: rgb(253, 239, 239);
+  background-image: url("pexels-lisa-918327.jpg");
+  background-size: cover;
+  background-blend-mode: lighten;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 20%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  min-width: 100px;
 }
 
 .container {
   max-width: 500px;
   min-width: 300px;
   width: 50%;
-  margin: 50 auto;
-  background-color: #9a86a4;
+  margin: 10px auto;
+  background-color: hsla(353, 83%, 48%, 0.315);
 
-  padding: 2rem;
-  border: 1px solid white;
+  margin: 30px auto;
+  padding: 1rem 3rem;
+
   border-radius: 10px;
+  box-shadow: 0px 0px 25px 16px rgba(5, 4, 4, 0.8);
 }
-
 h1 {
   text-align: center;
-  color: #b7e5dd;
+  margin: 20px 0 30px;
 }
 
 input,
@@ -27,15 +41,12 @@ textarea,
 select {
   width: 100%;
   min-width: 2em;
-  color: #b1bce6;
 }
 
 p {
-  color: #b1bce6;
-  background-color: #f1f0c0;
-  padding: 2rem;
   border-radius: 10px;
   text-align: justify;
+  padding-bottom: 1rem;
 }
 
 label {
